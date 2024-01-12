@@ -4,4 +4,4 @@ services:
     container_name: apache1
     ports:
         -  "8081:8080"
-        -  "9090:8181"
+        -  "9090:8080"
