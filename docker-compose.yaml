@@ -1,3 +1,6 @@
 services:
   myservice:
     image: your-docker-image:latest
+     container_name: apache1
+      ports:
+        -  "8081:80"
